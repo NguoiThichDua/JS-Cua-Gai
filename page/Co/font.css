@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('UTM Swashes.ttf');
+}
+
+p.addFont {
+    font-family: 'myFont';
+    font-weight: bold;
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

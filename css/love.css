@@ -1,0 +1,21 @@
+#love{
+    font-weight:bold;
+    color: red;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px red;
+}
+
+#love2{
+    color: red;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px red;
+}
+#result{
+    font-weight: inherit;
+    font-size: 16px;
+    direction: unset;
+}
+#vy{
+    color: violet;
+    font-weight: bold;
+}

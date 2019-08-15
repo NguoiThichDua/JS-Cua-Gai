@@ -1,0 +1,114 @@
+
+body, html {
+    text-align: center;
+    font-size: 120px;
+    font-family: Poiret One;
+    height: 100%;
+    overflow: hidden;
+    color: #6409D1;
+}
+
+.letter {
+    position: relative;
+    top: -webkit-calc(30% - 40px);
+    top: calc(10% - 20px);
+    text-shadow: 5px 5px 5px white;
+    font-weight: bold;
+}
+.letter:nth-child(1) {
+    -webkit-animation: fade 4s infinite 200ms;
+    animation: fade 4s infinite 200ms;
+}
+.letter:nth-child(2) {
+    -webkit-animation: fade 4s infinite 400ms;
+    animation: fade 4s infinite 400ms;
+}
+.letter:nth-child(3) {
+    -webkit-animation: fade 4s infinite 600ms;
+    animation: fade 4s infinite 600ms;
+}
+.letter:nth-child(4) {
+    -webkit-animation: fade 4s infinite 800ms;
+    animation: fade 4s infinite 800ms;
+}
+.letter:nth-child(5) {
+    -webkit-animation: fade 4s infinite 1000ms;
+    animation: fade 4s infinite 1000ms;
+}
+.letter:nth-child(6) {
+    -webkit-animation: fade 4s infinite 1200ms;
+    animation: fade 4s infinite 1200ms;
+}
+.letter:nth-child(7) {
+    -webkit-animation: fade 4s infinite 1400ms;
+    animation: fade 4s infinite 1400ms;
+}
+.letter:nth-child(8) {
+    -webkit-animation: fade 4s infinite 1400ms;
+    animation: fade 4s infinite 1600ms;
+}
+.letter:nth-child(9) {
+    -webkit-animation: fade 4s infinite 1400ms;
+    animation: fade 4s infinite 1800ms;
+}
+.letter:nth-child(10) {
+    -webkit-animation: fade 4s infinite 1400ms;
+    animation: fade 4s infinite 2000ms;
+}
+.letter:nth-child(11) {
+    -webkit-animation: fade 4s infinite 1400ms;
+    animation: fade 4s infinite 2200ms;
+}
+.letter:nth-child(12) {
+    -webkit-animation: fade 4s infinite 1400ms;
+    animation: fade 4s infinite 2400ms;
+}
+
+@-webkit-keyframes fade {
+    50% {
+        opacity: 0.02;
+    }
+}
+
+@keyframes fade {
+    50% {
+        opacity: 0.02;
+    }
+}
+/***************************************************************/
+/*************** Footer Bar Style ******************************/
+/***************************************************************/
+.footer-bar
+{
+display: block;
+width: 100%;
+height: 45px;
+line-height: 45px;
+background: #111;
+border-top: 1px solid #E62600;
+position: fixed;
+bottom: 0;
+left: 0;
+}
+.footer-bar .article-wrapper{
+font-family: arial, sans-serif;
+font-size: 14px;
+color: #888;
+float: left;
+margin-left: 10%;
+}
+.footer-bar .article-link a, .footer-bar .article-link a:visited{
+text-decoration: none;
+color: #fff;
+}
+.site-link a, .site-link a:visited{
+color: #888;
+font-size: 14px;
+font-family: arial, sans-serif;
+float: right;
+margin-right: 10%;
+text-decoration: none;
+}
+.site-link a:hover{
+color: #E62600;
+}
